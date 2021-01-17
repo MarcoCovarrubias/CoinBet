@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>CoinBet</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./web3.min.js"></script>
+    <script type="text/javascript" src="./abi.js"></script>
+    <script type="text/javascript" src="./main.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+
+  </head>
+  <body style="background-color:RGB(36,37,38);">
+<div class="jumbotron jumbotron-fluid">
+<div class="container">
+<h1 class="display-4" style="font-family:verdana; text-align: center;">&nbsp;</h1>
+<h1 class="display-4" style="font-family:verdana; color: #EC8852; text-align: center;">CoinBet!&nbsp;</h1>
+<p class="lead" style="font-family:verdana; color: #EC8852; text-align: center;"><strong>Bet ETH flipping a coin. Get rich quickly and retire early, or... lose it all!.</strong></p>
+</div>
+</div>
+<div class="container">
+<div style="text-align: center; color: #EC8852; font-family:verdana;">
+<h2>How much you want to bet? </h2>
+<div class="input-group mb-3"><input id="amount_input" class="form-control" type="text" placeholder="Amount in ETH" /></div>
+<div class="input-group mb-3">&nbsp;</div>
+<button id="bet_button" class="btn btn-primary" type="button">TOSS THE COIN!</button></div>
+<div style="text-align: center;">
+<h2 style="text-align: center; color: #EC8852; font-family:verdana;">Your luck:</h2>
+        <div>
+           <h2 id="luck" style="text-align: center; color: #EC8852; font-family:verdana;"></h2>
+        </div>
+<h1 class="display-4"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://cdn.dribbble.com/users/1493264/screenshots/5573460/coin-flip-dribbble.gif" alt="Coin flip dribbble" /></h1>
+</div>
+
+
+  </body>
+</html>
